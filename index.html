@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>TDA: A Matrix Factorization Perspective</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<!-- <link rel="stylesheet" href="css/theme/black.css"> -->
+		<link rel="stylesheet" href="css/theme/serif.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+
+			<div class="slides">
+
+				<section>
+				<section data-background-video="video_slides/Title.mp4" data-background-video-muted data-background-video-loop>
+						<h3>Topological Data Analysis : A Matrix Factorization Perspective</h3>
+						<p></br></p>
+						<h4>Anjan Dwaraknath</h4>
+						<p>
+							February, 2020
+						</p>
+						<h6>Joint work with : Brad Nelson, Gunnar Carlsson</h5>
+
+					</section>
+				<script src="js/add_video_slide.js" slide_scene="TopSlide"></script>
+				<script src="js/add_video_slide.js" slide_scene="HolesSlide"></script>
+				<script src="js/add_video_slide.js" slide_scene="SimpComplexSlide"></script>
+				<script src="js/add_video_slide.js" slide_scene="RipsGrowBalls"></script>
+				<script src="js/add_video_slide.js" slide_scene="RipsDiagram"></script>
+				<script src="js/add_video_slide.js" slide_scene="Applications2"></script>
+
+
+				<script src="js/add_video_slide.js" slide_scene="VSforDIM"></script>
+				<script src="js/add_video_slide.js" slide_scene="BdryOp"></script>
+				<script src="js/add_video_slide.js" slide_scene="BdryOp2"></script>
+				<script src="js/add_video_slide.js" slide_scene="ChainComplex"></script>
+				<script src="js/add_video_slide.js" slide_scene="BdryOp3"></script>
+				<script src="js/add_video_slide.js" slide_scene="BdryOp4"></script>
+
+				<script src="js/add_video_slide.js" slide_scene="QuiverIntro"></script>
+				<script src="js/add_video_slide.js" slide_scene="Canonical"></script>
+				<script src="js/add_video_slide.js" slide_scene="Canonical2"></script>
+				<script src="js/add_video_slide.js" slide_scene="Homology"></script>
+
+				<script src="js/add_video_slide.js" slide_scene="MatrixPassing_diag"></script>
+				<script src="js/add_video_slide.js" slide_scene="MatrixPassing_mat"></script>
+				<script src="js/add_video_slide.js" slide_scene="MatrixPassing_pass"></script>
+
+
+				<script src="js/add_video_slide.js" slide_scene="LEUP"></script>
+				<script src="js/add_video_slide.js" slide_scene="QuiverAlg"></script>
+				<!--<script src="js/add_video_slide.js" slide_scene="LELCommute"></script>-->
+				<script src="js/add_video_slide.js" slide_scene="LEL_full"></script>
+				<script src="js/add_video_slide.js" slide_scene="FullQuiverAlgR"></script>
+
+				<script src="js/add_video_slide.js" slide_scene="Applications1"></script>
+				<script src="js/add_video_slide.js" slide_scene="Applications2"></script>
+
+				<section>
+						<h3>Extensions</h3>
+						<p>
+						The Quiver Algorithm has applications beyond computing homology
+					  </p>
+						<ul>
+							<li> Persistence homology </li>
+							<li> Zigzag Homology </li>
+							<li> Divide and conquer strategy</li>
+							<li> There might be other applications beyond TDA </li>
+						</ul>
+				</section>
+
+				<section>
+						<h3>More Information</h3>
+						<p>
+						More information can be found in our paper.
+					  <br/>
+						<strong>Persistent and Zigzag Homology: A Matrix Factorization Viewpoint</strong>
+					  </p>
+						<p>
+						Code can be found at : <a href=https://github.com/bnels/BATS>https://github.com/bnels/BATS</a>
+						</p>
+
+				</section>
+
+				<section>
+						<h3>Questions?</h3>
+				</section>
+
+				<section>
+						<h3>Slides were made using the following libraries</h3>
+						<ul>
+							<li>HTML Slides : <strong>Reveal.js</strong> - <a href=https://github.com/hakimel/reveal.js/>https://github.com/hakimel/reveal.js</a></li>
+							<li>Animations : <strong>Manim</strong> - <a href=https://github.com/3b1b/manim>https://github.com/3b1b/manim</a></li>
+							<li>The code to glue them together - <a href=https://github.com/anjandn/manim_reveal>https://github.com/anjandn/manim_reveal</a></li>
+						</ul>
+
+				</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+
+		</script>
+
+		<script src="js/video_slide.js"></script>
+	</body>
+</html>
